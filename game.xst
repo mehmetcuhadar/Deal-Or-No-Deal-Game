@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/mehme/worDir/deneme_2/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/mehme/worDir/deneme_2/xst"
+elaborate
+-ifn game.prj
+-ifmt mixed

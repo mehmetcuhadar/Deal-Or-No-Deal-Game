@@ -1,0 +1,48 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to C:/Users/mehme/worDir/deneme_2/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.10 secs
+ 
+--> Parameter xsthdpdir set to C:/Users/mehme/worDir/deneme_2/xst
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.10 secs
+ 
+--> WARNING:Xst:3164 - Option "-debug" found multiple times in the command line. Only the first occurence is considered.
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/mehme/worDir/deneme_2/slowerClock.vhd" in Library work.
+Architecture behavioral of Entity slowerclock is up to date.
+Compiling vhdl file "C:/Users/mehme/worDir/deneme_2/driver.vhd" in Library work.
+WARNING:HDLParsers:1406 - "C:/Users/mehme/worDir/deneme_2/driver.vhd" Line 52. No sensitivity list and no wait in the process
+Architecture behavioral of Entity driver is up to date.
+Compiling vhdl file "C:/Users/mehme/worDir/deneme_2/decoder.vhd" in Library work.
+Architecture behavioral of Entity decoder is up to date.
+Compiling vhdl file "C:/Users/mehme/worDir/deneme_2/sevenSegment.vhd" in Library work.
+Entity <sevensegment> compiled.
+ERROR:HDLParsers:837 - "C:/Users/mehme/worDir/deneme_2/sevenSegment.vhd" Line 107. Width mismatch. Expected width 4, Actual width is 5 for dimension 1 of A_1.
+ERROR:HDLParsers:837 - "C:/Users/mehme/worDir/deneme_2/sevenSegment.vhd" Line 108. Width mismatch. Expected width 4, Actual width is 5 for dimension 1 of B_1.
+ERROR:HDLParsers:837 - "C:/Users/mehme/worDir/deneme_2/sevenSegment.vhd" Line 109. Width mismatch. Expected width 4, Actual width is 5 for dimension 1 of C_1.
+ERROR:HDLParsers:837 - "C:/Users/mehme/worDir/deneme_2/sevenSegment.vhd" Line 110. Width mismatch. Expected width 4, Actual width is 5 for dimension 1 of D_1.
+ERROR:HDLParsers:837 - "C:/Users/mehme/worDir/deneme_2/sevenSegment.vhd" Line 111. Width mismatch. Expected width 4, Actual width is 5 for dimension 1 of E_1.
+ERROR:HDLParsers:837 - "C:/Users/mehme/worDir/deneme_2/sevenSegment.vhd" Line 112. Width mismatch. Expected width 4, Actual width is 5 for dimension 1 of F_1.
+ERROR:HDLParsers:837 - "C:/Users/mehme/worDir/deneme_2/sevenSegment.vhd" Line 119. Width mismatch. Expected width 5, Actual width is 4 for dimension 1 of sevenSegValue.
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.20 secs
+ 
+--> 
+
+Total memory usage is 4476368 kilobytes
+
+Number of errors   :    7 (   0 filtered)
+Number of warnings :    2 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

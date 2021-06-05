@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/.Xilinx/deneme/main_isim_beh.exe" -prj "C:/.Xilinx/deneme/main_beh.prj" "work.main" 

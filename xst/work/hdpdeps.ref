@@ -1,0 +1,73 @@
+V3 55
+FL C:/.Xilinx/deneme/BinaryToBCD.vhd 2021/01/01.14:34:33 P.20131013
+FL C:/.Xilinx/deneme/decoder.vhd 2021/01/01.21:59:56 P.20131013
+FL C:/.Xilinx/deneme/division.vhd 2021/01/01.13:19:12 P.20131013
+EN work/division 1609496418 FL C:/.Xilinx/deneme/division.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/division/structure 1609496419 \
+      FL C:/.Xilinx/deneme/division.vhd EN work/division 1609496418
+FL C:/.Xilinx/deneme/driver.vhd 2020/12/30.20:28:38 P.20131013
+FL C:/.Xilinx/deneme/main.vhd 2021/01/01.21:49:46 P.20131013
+FL C:/.Xilinx/deneme/random.vhd 2020/12/30.22:35:34 P.20131013
+FL C:/.Xilinx/deneme/sevenSegment.vhd 2020/12/30.20:30:56 P.20131013
+FL C:/.Xilinx/deneme/slowerClock.vhd 2020/12/30.20:30:12 P.20131013
+FL C:/.Xilinx/deneme_2/BinaryToBCD.vhd 2021/01/01.14:34:34 P.20131013
+EN work/BinaryToBCD 1610203658 FL C:/.Xilinx/deneme_2/BinaryToBCD.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/BinaryToBCD/Behavioral 1610203659 \
+      FL C:/.Xilinx/deneme_2/BinaryToBCD.vhd EN work/BinaryToBCD 1610203658
+FL C:/.Xilinx/deneme_2/decoder.vhd 2021/01/08.18:38:06 P.20131013
+EN work/decoder 1610203654 FL C:/.Xilinx/deneme_2/decoder.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/decoder/Behavioral 1610203655 \
+      FL C:/.Xilinx/deneme_2/decoder.vhd EN work/decoder 1610203654
+FL C:/.Xilinx/deneme_2/driver.vhd 2021/01/08.13:41:46 P.20131013
+EN work/driver 1610203652 FL C:/.Xilinx/deneme_2/driver.vhd PB ieee/std_logic_1164 1381692176 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179 PB ieee/NUMERIC_STD 1381692181 \
+      PB ieee/std_logic_arith 1381692177
+AR work/driver/Behavioral 1610203653 \
+      FL C:/.Xilinx/deneme_2/driver.vhd EN work/driver 1610203652
+FL C:/.Xilinx/deneme_2/game.vhd 2021/01/09.13:50:51 P.20131013
+EN work/game 1610203656 FL C:/.Xilinx/deneme_2/game.vhd PB ieee/std_logic_1164 1381692176 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179 PB ieee/NUMERIC_STD 1381692181
+AR work/game/Behavioral 1610203657 \
+      FL C:/.Xilinx/deneme_2/game.vhd EN work/game 1610203656
+FL C:/.Xilinx/deneme_2/main.vhd 2021/01/09.16:39:55 P.20131013
+EN work/main 1610203662 FL C:/.Xilinx/deneme_2/main.vhd PB ieee/std_logic_1164 1381692176 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179 PB ieee/NUMERIC_STD 1381692181
+AR work/main/Behavioral 1610203663 \
+      FL C:/.Xilinx/deneme_2/main.vhd EN work/main 1610203662 CP game \
+      CP binaryToBCD CP sevenSegment
+FL C:/.Xilinx/deneme_2/random.vhd 2021/01/05.16:47:18 P.20131013
+EN work/random 1609854817 FL C:/.Xilinx/deneme_2/random.vhd PB ieee/std_logic_1164 1381692176 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179 PB ieee/NUMERIC_STD 1381692181
+AR work/random/Behavioral 1609854818 \
+      FL C:/.Xilinx/deneme_2/random.vhd EN work/random 1609854817
+FL C:/.Xilinx/deneme_2/sevenSegment.vhd 2021/01/09.12:04:36 P.20131013
+EN work/sevenSegment 1610203660 FL C:/.Xilinx/deneme_2/sevenSegment.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179 \
+      PB ieee/NUMERIC_STD 1381692181
+AR work/sevenSegment/Behavioral 1610203661 \
+      FL C:/.Xilinx/deneme_2/sevenSegment.vhd EN work/sevenSegment 1610203660 \
+      CP work/slowerClock CP work/driver CP work/decoder
+FL C:/.Xilinx/deneme_2/slowerClock.vhd 2020/12/30.20:30:14 P.20131013
+EN work/slowerClock 1610203650 FL C:/.Xilinx/deneme_2/slowerClock.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179 \
+      PB ieee/NUMERIC_STD 1381692181
+AR work/slowerClock/Behavioral 1610203651 \
+      FL C:/.Xilinx/deneme_2/slowerClock.vhd EN work/slowerClock 1610203650
+FL C:/Users/mehme/worDir/deneme/BinaryToBCD.vhd 2021/01/01.14:34:34 P.20131013
+FL C:/Users/mehme/worDir/deneme/decoder.vhd 2021/01/01.21:59:58 P.20131013
+FL C:/Users/mehme/worDir/deneme/driver.vhd 2020/12/30.20:28:40 P.20131013
+FL C:/Users/mehme/worDir/deneme/main.vhd 2021/01/02.22:39:49 P.20131013
+FL C:/Users/mehme/worDir/deneme/random.vhd 2020/12/30.22:35:36 P.20131013
+FL C:/Users/mehme/worDir/deneme/sevenSegment.vhd 2020/12/30.20:30:58 P.20131013
+FL C:/Users/mehme/worDir/deneme/slowerClock.vhd 2020/12/30.20:30:14 P.20131013
+FL C:/Users/mehme/worDir/deneme_2/BinaryToBCD.vhd 2021/01/01.14:34:34 P.20131013
+FL C:/Users/mehme/worDir/deneme_2/decoder.vhd 2021/01/08.18:38:05 P.20131013
+FL C:/Users/mehme/worDir/deneme_2/driver.vhd 2021/01/08.13:41:45 P.20131013
+FL C:/Users/mehme/worDir/deneme_2/game.vhd 2021/01/08.22:25:55 P.20131013
+FL C:/Users/mehme/worDir/deneme_2/main.vhd 2021/01/08.17:52:17 P.20131013
+FL C:/Users/mehme/worDir/deneme_2/random.vhd 2020/12/30.22:35:36 P.20131013
+FL C:/Users/mehme/worDir/deneme_2/sevenSegment.vhd 2021/01/08.18:43:03 P.20131013
+FL C:/Users/mehme/worDir/deneme_2/slowerClock.vhd 2020/12/30.20:30:14 P.20131013
